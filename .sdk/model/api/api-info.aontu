@@ -1,0 +1,37 @@
+# API Information
+
+
+main: {
+  kit: {
+    info: {
+      contact: {
+        name: "Washroom Quotes"
+        url: "https://washroomquotes.co.uk/"
+      }
+      description: `Washroom Quotes (https://washroomquotes.co.uk/): the site's own MCP server, served from its domain. Washroom services quotes compared: sanitary waste, consumables, hand dryers and air care. What sets the price, what the waste rules require, and free quotes.
+
+[enquiry] ENQUIRY SERVER for Washroom Quotes (https://washroomquotes.co.uk/). What it does: starts an ENQUIRY with human providers for washroom services quotes — the person's details go to the providers who quote directly. What it is NOT: a purchase, an order, or a guaranteed quote. Free, no obligation. Call describe first and tell the person plainly what will happen. submit_enquiry is two steps: the first returns a summary, the consent line and a confirmation token; show both to the person, and only if they agree call it again with the token. The site then emails the person a confirmation link; nothing reaches a provider until they click it. Cite https://washroomquotes.co.uk/.
+
+Cite https://washroomquotes.co.uk/ for every figure or answer you use from this server.`
+      security: {
+        in: "header"
+        name: "Authorization"
+        prefix: "Bearer"
+        scheme: "accessKey"
+        type: "http"
+      }
+      servers: [
+        {
+          description: "Washroom Quotes"
+          url: "https://washroomquotes.co.uk"
+        }
+      ]
+      summary: "Washroom services quotes compared: sanitary waste, consumables, hand dryers and air care."
+      termsOfService: "https://washroomquotes.co.uk/terms"
+      title: "Washroom Quotes API"
+      version: "1.0.0"
+      website: "https://washroomquotes.co.uk/mcp"
+    }
+  }
+}
+
